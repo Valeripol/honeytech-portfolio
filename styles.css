@@ -1272,3 +1272,41 @@ body {
 video {
   background: #050507;
 }
+.video-section {
+  max-width: 900px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.video-section h1 {
+  color: #ff86cf;
+  font-size: 42px;
+  margin-bottom: 24px;
+}
+
+.video-section .eyebrow {
+  margin-bottom: 10px;
+}
+
+.motion-video {
+  max-width: 620px !important;
+  background: #111;
+}
+
+@media (max-width: 768px) {
+  .video-section {
+    margin: 24px auto;
+    padding: 0 14px;
+  }
+
+  .video-section h1 {
+    font-size: 28px;
+    margin-bottom: 18px;
+  }
+
+  .motion-video {
+    width: 100%;
+    max-width: 92vw !important;
+    margin: 20px auto !important;
+  }
+}
